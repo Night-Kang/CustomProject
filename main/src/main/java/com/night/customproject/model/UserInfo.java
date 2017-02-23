@@ -38,7 +38,7 @@ public class UserInfo {
         editor.putString(Constants.USER_NICK, nickName);
         editor.putString(Constants.USER_AVATAR, avatar);
         editor.putString(Constants.USER_SIGN, sign);
-        editor.commit();
+        editor.apply();
     }
 
     //用户退出清理
@@ -46,7 +46,7 @@ public class UserInfo {
         SharedPreferences settings = context.getSharedPreferences(Constants.USER_INFO, 0);
         SharedPreferences.Editor editor = settings.edit();
         editor.clear();
-        editor.commit();
+        editor.apply();
     }
 
     //获取缓存信息
@@ -100,5 +100,17 @@ public class UserInfo {
 
     public void setSign(String sign) {
         this.sign = sign;
+    }
+
+
+    @Override
+    public String toString() {
+        return "UserInfo{" +
+                "id='" + id + '\'' +
+                ", nickName='" + nickName + '\'' +
+                ", avatar='" + avatar + '\'' +
+                ", sign='" + sign + '\'' +
+                ", logLevel=" + logLevel +
+                '}';
     }
 }

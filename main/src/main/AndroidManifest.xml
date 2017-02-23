@@ -26,7 +26,7 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
-        android:name=""
+        android:name=".CustomApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -39,7 +39,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.LoginActivity"></activity>
+        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.StaticLibraryActivity" />
+        <activity android:name=".view.RegisterActivity" />
+        <activity android:name=".view.SplashActivity" />
+        <activity android:name=".view.CategoryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+                <!-- <category android:name="hell.world"/> -->
+                <category android:name="missio" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.LayoutInflaterActivity" />
+        <activity android:name=".view.CursorActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".view.OrmLiteActivity"/>
     </application>
 
 </manifest>

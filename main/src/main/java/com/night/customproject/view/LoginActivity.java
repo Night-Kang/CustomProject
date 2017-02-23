@@ -1,10 +1,12 @@
 package com.night.customproject.view;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -102,6 +104,21 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
     @Override
     public void onClick(View view) {
 
+        Intent intent = new Intent();
+        switch (view.getId()) {
+            case R.id.btn_login:
+                UserInfo.getInstance().setNickName(mUserName.getText().toString());
+                UserInfo.getInstance().setSign(mPassWord.getText().toString());
+                UserInfo.getInstance().saveUserInfo(LoginActivity.this);
+                Log.e(TAG, "---login:" + UserInfo.getInstance().toString());
+                break;
+            case R.id.registerNewUser:
+                intent.setClass(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
+                break;
+            default:
+                break;
+        }
     }
 
     //获取手机状态和内存卡

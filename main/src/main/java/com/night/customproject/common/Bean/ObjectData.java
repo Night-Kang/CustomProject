@@ -1,4 +1,4 @@
-package com.night.customproject.common.Bean;
+package com.night.customproject.common.bean;
 
 /**
  * Created by Night on 7/7/16.

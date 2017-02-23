@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.night.customproject.view.RegisterActivity">
+
+    <com.night.customproject.common.extension.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:title="title"
+        custom:titleTextColor="@color/colorAccent"
+        custom:titleTextSize="17sp"/>
+
+    <com.night.customproject.common.extension.DrawableCenterTextView
+        android:id="@+id/joinText"
+        android:layout_below="@id/titleBar"
+        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/app_name"
+        android:drawableLeft="@mipmap/button_left"
+        android:drawablePadding="5dp"
+        android:gravity="left|center_vertical" />
+
+</RelativeLayout>

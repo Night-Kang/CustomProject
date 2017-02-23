@@ -16,8 +16,13 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@null</item>
         <!--<android:windowbackground="null"；-->
+        <!--<item name="android:textColorHint">@color/hint_foreground_material_light</item>-->
+        <!--App bar 上的标题与更多菜单中的文字颜色。EditText color?-->
+        <item name="android:textColorPrimary">@color/login_tls_ui_countryCodeColor</item>
         <item name="android:textColorHint">@color/hint_foreground_material_light</item>
-
+        <!--<item name="android:textColorHintInverse">@color/hint_foreground_material_dark</item>-->
+        <!--<item name="android:textColorHighlight">@color/highlighted_text_material_light</item>-->
+        <item name="android:textColorLink">?attr/colorAccent</item>
     </style>
 
 </resources>

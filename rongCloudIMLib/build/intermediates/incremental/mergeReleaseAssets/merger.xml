@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/src/main/assets"/><source path="/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/src/release/assets"/></dataSet></merger>
