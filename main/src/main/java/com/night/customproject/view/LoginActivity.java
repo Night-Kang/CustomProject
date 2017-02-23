@@ -5,13 +5,16 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import com.night.customproject.R;
 import com.night.customproject.common.Constant;
+import com.night.customproject.model.User;
 import com.night.customproject.model.UserInfo;
+import com.night.customproject.model.UserWithParcelable;
 import com.night.customproject.presenters.LoginAssistant;
 import com.night.customproject.presenters.viewinterface.LoginView;
 
@@ -55,6 +58,12 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
 //            SxbLog.i(TAG, "LoginActivity onCreate");
             mLoginHeloper.imLogin(UserInfo.getInstance().getId(), UserInfo.getInstance().getSign());
         }
+
+
+        User user = (User) getIntent().getSerializableExtra("user");
+        UserWithParcelable userWithParcelable = getIntent().getParcelableExtra("userParcelable");
+
+        Log.e("Night", "---user:" + user.toString() + " ---->uuu: " + userWithParcelable.toString());
     }
 
     /**
