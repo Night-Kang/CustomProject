@@ -10,6 +10,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import com.night.customproject.model.User;
+import com.night.customproject.model.UserWithParcelable;
 import com.night.customproject.view.BaseActivity;
 import com.night.customproject.view.OrmLiteActivity;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
@@ -26,6 +28,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_layout);
         setSupportActionBar(toolbar);
 
+        Intent intent = new Intent(this, LoginActivity.class);
+        intent.putExtra("user", new User("username", 3));
+
+        intent.putExtra("userParcelable", new UserWithParcelable("user", 34));
+        startActivity(intent);
 
         mTestView = (TextView)findViewById(R.id.testView);
         mTestView.setOnClickListener(this);
