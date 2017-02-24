@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="82235728788839"
+    token="2547913660259456946"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1614" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="565" />
+    <task
+        name="verifier"
+        duration="59" />
+
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_1f16ce390d3276f1df6cfa212146d413515b063a/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d3561e7219912b86a9e0341ae75a4efc73a96e25/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_f51466353ef638e6cabaa9fc6feeb9b020de1a3d/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_b2d23e860b223832a17ac56096379d4d8c08c509/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2411c83975331b59a8231067ef9abf1b1af5b9ce/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/8/Rong_IMLib_v2_7_2_8fc1ccd48bfb8c75de7d83acb2d5c8e86b3795e1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_7528190571511b1358a2d46ce61e3357aa5eccad/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_eae1b155150bab5d7aaefbfb09a93043b1bef62f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_0231edfbe387297b67535b9846a6959df70c67ed/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_62b9d9043a65d718c671b5042403ceeb7c4b9dbd/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_5249fee1fcc29a55104bbd0d353ed94d5062a326/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_648b034eae97cbc0c6d60920c7ef2de81c60d77f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_c47657fb2b9a7f35258c7c9275765c89181ad191/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-core-5.0_a432ec4ce5760ddb514b116630dfd8b3d7bb93a1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/systembartint-1.0.4_1a609f705892ffe630c45c752bf239308817ea4f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_fe2c471afedd27e072285a0abfc1583e4c6449f5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_8d5fc5335c65f42cd617ad2dd472d98efc24c6ca/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_4df5a639f57abfea9e725529c0d7ad034adaa39f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_22c4b6f90b8f60136de1fa7059f58a7122d140b4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_661d69b05a6f4a9a5e485993d0a2c64e1e69d958/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/main/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-android-5.0_cafdd56ce57750106dc72c643c4b52b007ec716b/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_699298068f69616ceee93edbbcf86d61533d08f9/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_6fde4b8d657df8a743e6dbd70da7b37fb5f56244/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_62b9d9043a65d718c671b5042403ceeb7c4b9dbd/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/10/systembartint-1.0.4_1a609f705892ffe630c45c752bf239308817ea4f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/night/Developer/android/demo/CustomProject/Bean/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-android-5.0_cafdd56ce57750106dc72c643c4b52b007ec716b/classes.dex"
+        type="DEX" />
+
+</instant-run>

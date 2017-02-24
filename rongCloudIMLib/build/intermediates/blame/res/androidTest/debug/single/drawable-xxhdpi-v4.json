@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_ic_bubble_white.9.png",
-        "source": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_ic_bubble_white.9.png"
+        "merged": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_ic_bubble_white.9.png",
+        "source": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_ic_bubble_white.9.png"
     },
     {
-        "merged": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_group_default_portrait.png",
-        "source": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_group_default_portrait.png"
+        "merged": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_group_default_portrait.png",
+        "source": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_group_default_portrait.png"
     },
     {
-        "merged": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_ic_warning.png",
-        "source": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_ic_warning.png"
+        "merged": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_ic_warning.png",
+        "source": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_ic_warning.png"
     },
     {
-        "merged": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_default_portrait.png",
-        "source": "/Users/kang/Night/Developer/Android/test/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_default_portrait.png"
+        "merged": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/rc_default_portrait.png",
+        "source": "/Users/night/Developer/android/demo/CustomProject/rongCloudIMLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/rc_default_portrait.png"
     }
 ]

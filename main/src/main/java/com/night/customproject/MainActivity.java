@@ -8,17 +8,23 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.night.customproject.model.User;
 import com.night.customproject.model.UserWithParcelable;
 import com.night.customproject.view.BaseActivity;
+import com.night.customproject.view.LoginActivity;
 import com.night.customproject.view.OrmLiteActivity;
+import com.night.customproject.view.ServiceTestActivity;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
+
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     private TextView mTestView;
+
+    private Button mLoginButton, mServiceButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +34,13 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_layout);
         setSupportActionBar(toolbar);
 
-        Intent intent = new Intent(this, LoginActivity.class);
-        intent.putExtra("user", new User("username", 3));
 
-        intent.putExtra("userParcelable", new UserWithParcelable("user", 34));
-        startActivity(intent);
+        mLoginButton = (Button) findViewById(R.id.testLogin);
+        mLoginButton.setOnClickListener(this);
+        mServiceButton = (Button) findViewById(R.id.testService);
+        mServiceButton.setOnClickListener(this);
+
+
 
         mTestView = (TextView)findViewById(R.id.testView);
         mTestView.setOnClickListener(this);
@@ -83,6 +91,16 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 //有R.layout.main中使用RomLite数据库
 //                intent = new Intent(MainActivity.this, CursorActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.testLogin:
+                intent = new Intent(this, LoginActivity.class);
+                intent.putExtra("user", new User("username", 3));
+
+                intent.putExtra("userParcelable", new UserWithParcelable("user", 34));
+                startActivity(intent);
+                break;
+            case R.id.testService:
+                startActivity(new Intent(MainActivity.this, ServiceTestActivity.class));
                 break;
             default:
                 break;
